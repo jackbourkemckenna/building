@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-list-ul:before {
+  content: "\61";
+   font-size: 100px!important;
+}
+.icon-clipboard:before {
+  content: "\62";
+   font-size: 100px!important;
+}
+.icon-map:before {
+  content: "\63";
+   font-size: 100px!important;
+}
+.icon-certificate:before {
+  content: "\64";
+   font-size: 100px!important;
+}
+.icon-building:before {
+  content: "\65";
+   font-size: 100px!important;
+}
+.icon-tasks:before {
+  content: "\67";
+   font-size: 100px!important;
+}
+.icon-bar-chart:before {
+  content: "\66";
+   font-size: 100px!important;
+}
+.icon-battery-full:before {
+  content: "\68";
+   font-size: 100px!important;
+}
+.icon-book:before {
+  content: "\69";
+   font-size: 100px!important;
+}
