@@ -354,3 +354,6 @@ width:50%;
 .section__play-btn .material-icons {
     display: none;
 }
+.mdl-cell--9-col, .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop{
+  width:100%;
+}
