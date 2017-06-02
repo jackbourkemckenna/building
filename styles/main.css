@@ -351,3 +351,6 @@ width:50%;
 .morecontent span {
 	display: none;
 }
+.section__play-btn .material-icons {
+    display: none;
+}
