@@ -357,3 +357,24 @@ width:50%;
 .mdl-cell--9-col, .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop{
   width:100%;
 }
+.side-by-side-list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.side-by-side-list > div{
+  width: 50%;
+  float: left;
+}
+
+@media screen and (max-width 600px) {
+  .side-by-side-list > div{
+   width: 100%;
+  }
+}
+#aboutText{
+  text-align: center;
+}
+.support{
+  padding-top: 30px;
+}
