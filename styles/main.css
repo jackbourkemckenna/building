@@ -384,3 +384,46 @@ width:50%;
 #h1Size{
   font-size: 20px;
 }
+.mdl-textfield__label{
+  padding-left: 10px;
+}
+#alignEmail{
+  position: relative;
+  top: -44px;
+  display: inline-block;
+  float:right;
+}
+.phoneNumPadding{
+  top: -6px;
+  display: inline-block;
+  position: relative;
+  padding-left: 7px;
+
+}
+#phoneSize{
+  font-size: 20px;
+}
+.emailPadding{
+  font-size: 14px;
+    letter-spacing: 0;
+    margin: 0 0 16px;
+    display: inline-block;
+    top: -4px;
+    position: relative;
+    padding-left: 5px;
+
+
+  }
+.alignEmail{
+  display: inline-block;
+float: right;
+position: relative;
+top: -20px;
+}
+#emailSize{
+  font-size: 20px;
+
+}
+.mdl-card__supporting-text{
+  width: 96%;
+}
